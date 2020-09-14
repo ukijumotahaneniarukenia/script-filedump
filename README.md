@@ -6,3 +6,6 @@ javaはここを参考に実装
 
 Rubyはここを参考に実装
 - https://github.com/kig/metadata
+
+Perlはここを参考に実装
+- https://stackoverrun.com/ja/q/155708
