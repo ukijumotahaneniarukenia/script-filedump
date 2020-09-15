@@ -60,5 +60,19 @@ $ find / -type f 2>/dev/null | grep 'String/Random.pm'
 /home/aine/perl5/lib/perl5/String/Random.pm
 /usr/local/share/perl/5.26.1/String/Random.pm
 
+$ perl -C -M'String::Random' -M'Class::Inspector' -E 'map{say \@{$_}}Class::Inspector->functions("String::Random");'
+ARRAY(0x558d01ec15d8)
+
+$ perl -C -M'String::Random' -M'Class::Inspector' -E 'map{map{say }@{$_}}Class::Inspector->functions("String::Random");'
+_rand
+carp
+confess
+croak
+from_pattern
+new
+random_regex
+random_string
+randpattern
+randregex
 
 ```
