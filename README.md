@@ -52,5 +52,13 @@ croak
 $ perl -C -M'String::Random' -M'Class::Inspector qw/filename/' -E 'say Class::Inspector->filename("String::Random");'
 String/Random.pm
 
+$ find / -type f 2>/dev/null | grep 'String/Random.pm'
+/home/aine/.cpan/build/String-Random-0.30-0/blib/lib/String/Random.pm
+/home/aine/.cpan/build/String-Random-0.30-0/lib/String/Random.pm
+/home/aine/.local/share/.cpan/build/String-Random-0.30-0/blib/lib/String/Random.pm
+/home/aine/.local/share/.cpan/build/String-Random-0.30-0/lib/String/Random.pm
+/home/aine/perl5/lib/perl5/String/Random.pm
+/usr/local/share/perl/5.26.1/String/Random.pm
+
 
 ```
