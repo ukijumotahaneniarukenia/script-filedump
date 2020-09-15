@@ -28,4 +28,24 @@ random_string
 carp
 new
 croak
+
+$ perl -C -MString::Random -E 'map {say $_} keys %{String::Random::}'
+VERSION
+randregex
+confess
+ISA
+random_string
+BEGIN
+random_regex
+randpattern
+import
+EXPORT_TAGS
+_rand
+EXPORT_OK
+from_pattern
+carp
+__ANON__
+EXPORT
+new
+croak
 ```
