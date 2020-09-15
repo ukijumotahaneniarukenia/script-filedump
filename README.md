@@ -48,4 +48,9 @@ __ANON__
 EXPORT
 new
 croak
+
+$ perl -C -M'String::Random' -M'Class::Inspector qw/filename/' -E 'say Class::Inspector->filename("String::Random");'
+String/Random.pm
+
+
 ```
