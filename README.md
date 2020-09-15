@@ -7,6 +7,10 @@ javaはここを参考に実装
 Rubyはここを参考に実装
 - https://github.com/kig/metadata
 
+Pythonはここを参考に実装
+
+- https://docs.python.org/3/library/importlib.metadata.html
+
 Perlはここを参考に実装
 - https://stackoverrun.com/ja/q/155708
 
