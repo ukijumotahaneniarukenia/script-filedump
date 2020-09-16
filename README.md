@@ -4,6 +4,13 @@ fileのメタデータ系を出力するコマンドを投下
 javaはここを参考に実装
 - https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html
 
+javascriptはここを参考に実装
+- https://qiita.com/suin/items/b807769388c54c57a8be
+メソッドなども全てプロパティ管理されているので、
+シグニチャのif文で抽出対象を特定して文字列配列で取得する
+
+オブジェクト化のやり方
+
 Rubyはここを参考に実装
 - https://github.com/kig/metadata
 
