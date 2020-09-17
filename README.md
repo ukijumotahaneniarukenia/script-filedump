@@ -137,6 +137,9 @@ Exporter::require_version
 
 $ perl -C -M'String::Random' -M'Class::Inspector' -E 'map{map{say }@{$_}}Class::Inspector->subclasses("String::Random");'
 
+Codeのリファはこれで取れる
+
+- https://metacpan.org/pod/Class::MOP
 
 $ perl -C -M'String::Random' -M'Class::Inspector' -E 'map{map{map{say $_}@{$_}}@{$_}}Class::Inspector->methods("String::Random","expanded");'
 String::Random::_rand
