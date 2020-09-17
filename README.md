@@ -221,4 +221,27 @@ CODE(0x5583fd3f2d08)
 
 ```
 $ cpan install Class::MOP::Class
+
+$ perl -C -M'String::Random' -M'Class::MOP' -M'Class::Inspector' -E 'map{map{say }@{$_}}Class::Inspector->methods("Class::MOP","full");'
+Class::MOP::IS_RUNNING_ON_5_10
+Class::MOP::_definition_context
+Class::MOP::blessed
+Class::MOP::check_package_cache_flag
+Class::MOP::class_of
+Class::MOP::does_metaclass_exist
+Class::MOP::get_all_metaclass_instances
+Class::MOP::get_all_metaclass_names
+Class::MOP::get_all_metaclasses
+Class::MOP::get_code_info
+Class::MOP::get_metaclass_by_name
+Class::MOP::is_class_loaded
+Class::MOP::isweak
+Class::MOP::load_class
+Class::MOP::load_first_existing_class
+Class::MOP::metaclass_is_weak
+Class::MOP::remove_metaclass_by_name
+Class::MOP::store_metaclass_by_name
+Class::MOP::weaken
+Class::MOP::weaken_metaclass
+
 ```
