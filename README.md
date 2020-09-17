@@ -610,4 +610,25 @@ version
 wrap_method_body
 wrapped_method_metaclass
 
+$ perl -C -M'String::Random' -M'Class::MOP' -M'Class::MOP::Class' -M'Class::Inspector' -E 'my $meta = Class::MOP::Class->initialize("String::Random");map{say $_}sort $meta->get_all_method_names();'
+DOES
+VERSION
+_rand
+as_heavy
+can
+export
+export_fail
+export_ok_tags
+export_tags
+export_to_level
+from_pattern
+import
+isa
+new
+random_regex
+random_string
+randpattern
+randregex
+require_version
+
 ```
