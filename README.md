@@ -9,6 +9,11 @@ javascriptはここを参考に実装
 メソッドなども全てプロパティ管理されているので、
 シグニチャのif文で抽出対象を特定して文字列配列で取得する
 
+- https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/eval
+
+evalで動的に実行する
+リフレクションの代わり
+
 オブジェクト化のやり方
 
 Rubyはここを参考に実装
