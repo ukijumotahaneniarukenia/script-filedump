@@ -631,4 +631,101 @@ randpattern
 randregex
 require_version
 
+$ perl -C -M'String::Random' -M'Class::MOP' -M'Class::MOP::Class' -M'Class::Inspector' -E '$,="\t";my $meta = Class::MOP::Class->initialize("String::Random");map{%a=%{$_};map{say $_,$a{$_}}sort keys %a}sort $meta->get_all_methods();'
+associated_metaclass	Class::MOP::Class=HASH(0x556844aeb118)
+body	CODE(0x556844be71b8)
+name	random_regex
+original_method	
+package_name	String::Random
+associated_metaclass	Class::MOP::Class=HASH(0x556844aeb118)
+body	CODE(0x556844be6f60)
+name	randpattern
+original_method	
+package_name	String::Random
+associated_metaclass	Class::MOP::Class=HASH(0x556844aeb118)
+body	CODE(0x556844be6ab0)
+name	randregex
+original_method	
+package_name	String::Random
+associated_metaclass	Class::MOP::Class=HASH(0x556844aeb118)
+body	CODE(0x556844be6cf0)
+name	from_pattern
+original_method	
+package_name	String::Random
+associated_metaclass	Class::MOP::Class=HASH(0x556844aeb118)
+body	CODE(0x556844be7398)
+name	random_string
+original_method	
+package_name	String::Random
+associated_metaclass	Class::MOP::Class=HASH(0x556844aeb118)
+body	CODE(0x556844be6810)
+name	new
+original_method	
+package_name	String::Random
+associated_metaclass	Class::MOP::Class=HASH(0x556844aeb118)
+body	CODE(0x556844bce100)
+name	_rand
+original_method	
+package_name	String::Random
+associated_metaclass	Class::MOP::Class=HASH(0x556845035808)
+body	CODE(0x556844bbf208)
+name	export_fail
+original_method	
+package_name	Exporter
+associated_metaclass	Class::MOP::Class=HASH(0x556845084328)
+body	CODE(0x556844ad0bc0)
+name	can
+original_method	
+package_name	UNIVERSAL
+associated_metaclass	Class::MOP::Class=HASH(0x556845084328)
+body	CODE(0x556844ad0bf0)
+name	DOES
+original_method	
+package_name	UNIVERSAL
+associated_metaclass	Class::MOP::Class=HASH(0x556845084328)
+body	CODE(0x556844ad0b78)
+name	isa
+original_method	
+package_name	UNIVERSAL
+associated_metaclass	Class::MOP::Class=HASH(0x556845084328)
+body	CODE(0x556844ad0c20)
+name	VERSION
+original_method	
+package_name	UNIVERSAL
+associated_metaclass	Class::MOP::Class=HASH(0x556845035808)
+body	CODE(0x556844bbf550)
+name	require_version
+original_method	
+package_name	Exporter
+associated_metaclass	Class::MOP::Class=HASH(0x556845035808)
+body	CODE(0x556844b174b8)
+name	as_heavy
+original_method	
+package_name	Exporter
+associated_metaclass	Class::MOP::Class=HASH(0x556845035808)
+body	CODE(0x556844bbf430)
+name	export_tags
+original_method	
+package_name	Exporter
+associated_metaclass	Class::MOP::Class=HASH(0x556845035808)
+body	CODE(0x556844ba6b38)
+name	export_to_level
+original_method	
+package_name	Exporter
+associated_metaclass	Class::MOP::Class=HASH(0x556845035808)
+body	CODE(0x556844b93510)
+name	import
+original_method	
+package_name	Exporter
+associated_metaclass	Class::MOP::Class=HASH(0x556845035808)
+body	CODE(0x556844b93060)
+name	export
+original_method	
+package_name	Exporter
+associated_metaclass	Class::MOP::Class=HASH(0x556845035808)
+body	CODE(0x556844bbf4c0)
+name	export_ok_tags
+original_method	
+package_name	Exporter
+
 ```
