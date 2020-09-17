@@ -216,3 +216,9 @@ CODE(0x5583fd3f2d08)
 このファイルとか使えそう
 /home/aine/.local/share/.cpan/build/String-Random-0.30-0/META.json
 ```
+
+こちらのほうがより詳細に出力されそう
+
+```
+$ cpan install Class::MOP::Class
+```
